@@ -16,25 +16,30 @@ class RakSeeder extends Seeder
     {
         $data = [
             [
-                'kode_rak'    =>  'R001',
-                'nama_rak'    =>  'RAK-001',
+                'kode_rak'    =>  'C1.1',
+                'nama_rak'    =>  'CB 1.1',
             ],
             [
-                'kode_rak'    =>  'R002',
-                'nama_rak'    =>  'RAK-002',
+                'kode_rak'    =>  'C1.2',
+                'nama_rak'    =>  'CB 1.2',
             ],
             [
-                'kode_rak'    =>  'R003',
-                'nama_rak'    =>  'RAK-003',
+                'kode_rak'    =>  'C1.3',
+                'nama_rak'    =>  'CB 1.3',
             ],
             [
-                'kode_rak'    =>  'R004',
-                'nama_rak'    =>  'RAK-004',
+                'kode_rak'    =>  'C1.4',
+                'nama_rak'    =>  'CB 1.4',
             ],
             [
-                'kode_rak'    =>  'R005',
-                'nama_rak'    =>  'RAK-005',
+                'kode_rak'    =>  'C1.5',
+                'nama_rak'    =>  'CB 1.5',
             ],
+            [
+                'kode_rak'    =>  'C1.6',
+                'nama_rak'    =>  'CB 1.6',
+            ],
+            
         ];
         DB::table('rak')->insert($data);
     }

@@ -16,24 +16,12 @@ class KategoriSeeder extends Seeder
     {
         $data = [
             [
-                'kode_kategori'    =>  'UMUM',
-                'nama_kategori'    =>  'BARANG-UMUM',
+                'kode_kategori'    =>  'INVTRY',
+                'nama_kategori'    =>  'INVENTORY',
             ],
             [
-                'kode_kategori'    =>  'EKONOMI',
-                'nama_kategori'    =>  'BARANG-EKONOMI',
-            ],
-            [
-                'kode_kategori'    =>  'PUBLIK',
-                'nama_kategori'    =>  'BARANG-PUBLIK',
-            ],
-            [
-                'kode_kategori'    =>  'MODAL',
-                'nama_kategori'    =>  'BARANG-MODAL',
-            ],
-            [
-                'kode_kategori'    =>  'KONSUMEN',
-                'nama_kategori'    =>  'BARANG-KONSUMEN',
+                'kode_kategori'    =>  'ASSETS',
+                'nama_kategori'    =>  'ASSETS',
             ],
         ];
         DB::table('kategori')->insert($data);

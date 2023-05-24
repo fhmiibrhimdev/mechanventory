@@ -12,7 +12,7 @@
                             <div class="form-group">
                                 <label for="kode_rak">Kode Rak</label>
                                 <input type="text" class="form-control tw-rounded-lg" name="kode_rak" id="kode_rak"
-                                    wire:model='kode_rak'>
+                                    wire:model='kode_rak' autofocus>
                                 @error('kode_rak') <span class="text-danger">{{ $message }}</span> @enderror
                             </div>
                             <div class="form-group">

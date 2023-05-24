@@ -1,63 +1,9 @@
 <div>
-    <div class="section-header tw-rounded-lg tw-text-black tw-shadow-md tw-shadow-gray-200">
+    <div class="section-header tw-rounded-lg tw-text-black tw-shadow-md tw-shadow-gray-300">
         <h4 class="tw-text-lg">Master Data - Barang</h4>
     </div>
 
     <div class="section-body">
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="card tw-shadow-md tw-shadow-gray-300 tw-rounded-lg">
-                    <div class="card-body">
-                        <div class="tw-flex">
-                            <i class="far fa-inventory tw-text-5xl text-info"></i>
-                            <div class="ml-3">
-                                <span class="tw-font-bold tw-text-black">{{ $tersedia }} Barang</span>
-                                <p>Tersedia</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card tw-shadow-md tw-shadow-gray-300 tw-rounded-lg">
-                    <div class="card-body">
-                        <div class="tw-flex">
-                            <i class="far fa-truck-loading tw-text-5xl text-danger"></i>
-                            <div class="ml-3">
-                                <span class="tw-font-bold tw-text-black">{{ $stok_habis }} Barang</span>
-                                <p>Stok Habis</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card tw-shadow-md tw-shadow-gray-300 tw-rounded-lg">
-                    <div class="card-body">
-                        <div class="tw-flex">
-                            <i class="far fa-box-full tw-text-5xl text-success"></i>
-                            <div class="ml-3">
-                                <span class="tw-font-bold tw-text-black">{{ $stok_tersedia }} Barang</span>
-                                <p>Stok Tersedia</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card tw-shadow-md tw-shadow-gray-300 tw-rounded-lg">
-                    <div class="card-body">
-                        <div class="tw-flex">
-                            <i class="far fa-hand-holding-box tw-text-5xl text-warning"></i>
-                            <div class="ml-3">
-                                <span class="tw-font-bold tw-text-black">{{ $stok_sedikit }} Barang</span>
-                                <p>Stok Sedikit</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="row">
             <div class="col-lg-12">
                 <div class="card tw-shadow-md tw-shadow-gray-300 tw-rounded-lg">
@@ -129,7 +75,7 @@
                                     </tr>
                                     @empty
                                     <tr class="text-center">
-                                        <td class="p-3" colspan="9">
+                                        <td class="p-3" colspan="8">
                                             No data available in table
                                         </td>
                                     </tr>
